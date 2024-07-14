@@ -12,7 +12,7 @@ class Content1 : AppCompatActivity() {
 
         val buttonBackToMain: Button = findViewById(R.id.buttonBackToMain)
         buttonBackToMain.setOnClickListener {
-            onBackPressed() // Or navigate to MainActivity explicitly
+            onBackPressed()
         }
     }
 
